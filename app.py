@@ -7,4 +7,4 @@ def newflask():
     return "<h1>Welcome</h2>"
 
 if __name__ == "__main__":
-    app.run(host = "0.0.0.0", port = 6000)
+    app.run(host = "0.0.0.0", port = 8000)
