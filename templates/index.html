@@ -4,10 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flaskapp</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+    </style>
+    }
+    form > input{
+    margin10px;
+    width:200px;
+    height:50px;
+    }
+
+    form > .btn{
+    background-color: green;
+    color: white;
+    }
+
+    </style>
 </head>
 
 <body>
+    <form action="" method="post">
+        <input name="email" type="email" placeholder="enter your email address" />
+        <input name="name" type="text" placeholder="enter your username" />
+        <input class="btn" value="submit data" />
+
+    </form>
     <h1>user page</h1>
     <p>login to new page</p>
 </body>
